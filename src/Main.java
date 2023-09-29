@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         CreditPaymentService service = new CreditPaymentService();
-        double loanTermInMonths = 12; //Срок кредита в месяцах
+        double loanTermInMonths = 24; //Срок кредита в месяцах
         double amountOfCredit = 1_000_000; //Сумма кредита в рублях
         double loanInterestRate = 9.99; //Процентная ставка
 
